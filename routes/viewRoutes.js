@@ -11,7 +11,7 @@ const POLICY =
   "img-src http://localhost:3000 'self' blob: data:;" +
   "object-src 'none';" +
   "script-src https: cdn.jsdelivr.net cdnjs.cloudflare.com api.mapbox.com 'self' blob: ;" +
-  "connect-src * 'unsafe-inline'" +
+  "connect-src * https: 'unsafe-inline';" +
   "script-src-attr 'none';" +
   "style-src 'self' https: 'unsafe-inline';" +
   'upgrade-insecure-requests;';
